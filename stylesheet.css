@@ -67,11 +67,6 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 
-.chapter p 
-{
-margin-bottom: 1.5em;
-}
-
 a 
 {
 color: #0066cc;
@@ -82,3 +77,8 @@ a:hover
 text-decoration: underline;
 }
 
+.chapter p 
+{
+  line-height: 32px;   /* within paragraph */
+  margin-bottom: 20px; /* between paragraphs */
+  }
